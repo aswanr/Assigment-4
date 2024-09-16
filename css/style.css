@@ -50,14 +50,15 @@
     justify-content: space-between; /* Center items horizontally */
     align-items: center;
     color: aliceblue;
-    width: 433px;
-    height: 24px;
+    gap: 30px;
     list-style: none;
+    width: 48px;
+    height: 24px;
     margin: 5px;
     padding: 32px;
     font-family: "poppins";
     line-height: 24px;
-    font-size: 16px;
+    font-size: 10px;
     font-weight: 400;
 }
 .nav-links h2{
@@ -126,10 +127,10 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 653px;
+    margin-top: 590px;
 }
 .inside{
-    width: 70%;
+    width: 100%;
     height: 406px;
     display: flex;
     align-items: center;
@@ -143,8 +144,7 @@
     font-weight: 400;
     line-height: 24px;
     font-size: 16px;
-    padding: 30px 0px;
-    
+    padding: 30px 0px;   
 }
 .parag h1{
     font-family: "poppins";
@@ -175,13 +175,22 @@
 }
 .section-bt1{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 }
 .Jbl-cond{
     display: none;
 }
 .media-followline{
+    display: none;
+}
+.media-heapnoesection-2{
+    display: none;
+}
+.headphone{
+    text-align: center;
+}
+.balck-btnjbl{
     display: none;
 }
 /* Firstmedia */
@@ -196,18 +205,20 @@
     .full-nav{
         display: none;
     }
+    .emp-99che{
+        display: none;
+        width: 0;
+        height: 0;
+    }
     .follow-icons{
         display: block;
     }
     .Jbl-cond{
         display: block;
-        width: 365px;
-        height: 56px;
+        width: 100%;
+        height: 100vh;
     }
     .inside{
-        display: none;
-    }
-    .section-3{
         display: none;
     }
     .navcond-media{
@@ -233,6 +244,152 @@
         display: block;
         rotate: 90deg;
     }
+    .media-followline{
+        position: relative;
+        left: 71px;
+    }
+    .follow {
+        position: relative;
+        top: 345px;
+        left: 134px;    
+    }
+    .follow-icons{
+        position: relative;
+        right: 137px;
+        top: -118px;
+    }
+    .headphone-jblcond{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 227px;
+        width: 269px;
+        position: relative;
+        top: 139px;
+        left: 46px;
+    }
+    .jbl-headcond{
+        display: inline-flex;
+    }
+    .jbl-hedphonecond{
+        width: 220px;
+        height: auto;
+        padding: 10px;
+        position: absolute;
+    }
+    .jbl-senta{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+    }
+    .jbl-j{
+        position: relative;
+        color: rgba(89, 0, 120, 1);
+        font-family: "poppins";
+        font-size: 160px;
+        line-height: 240px;
+        font-weight: 600;
+        z-index: 1;
+    }
+    .jbl-b{
+        position: relative;
+        color: rgba(89, 0, 120, 1);
+        font-family: "poppins";
+        font-size: 160px;
+        line-height: 240px;
+        font-weight: 600;
+    }
+    .jbl-l{
+        position: relative;
+        color: rgba(89, 0, 120, 1);
+        font-family: "poppins";
+        font-size: 160px;
+        line-height: 240px;
+        font-weight: 600;
+        z-index: 1;
+    }
+    .price-button{
+        position: absolute;
+        left: 143px;
+        display: inline-flex;
+    }
+    .media-btn{ 
+        display: none;
+    }
+    .price-btn{
+        cursor: pointer;
+        border-radius: 64px;
+        background: linear-gradient(90deg, #4A4745 0%, #151414);
+        width: 44px;
+        height: 27px;
+        font-size: 13px;
+        line-height: 19.5px;
+        font-weight: 500;
+        color: #fff;
+        position: relative;
+        top: -13px;
+        right: 3px;
+        border: 0;
+    }
+    .balck-btnjbl{
+        min-width: 130px;
+        height: 40px;
+        border: none;
+        border-radius: 64px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: pointer;
+        background: linear-gradient(90deg, #4A4745 0%, #151414);
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 22.5px;
+        font-family: "poppins";
+        color: rgba(255, 255, 255, 1);
+        box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.25);
+        position: relative;
+        top: 87px;
+        left: 54px;
+    }
+    .jblcondiner{
+        width: 85%;
+        height: 75%;
+    }
+    /* section2 */
+    .section-2{
+            margin-top: 0px;
+    }
+    .second{
+        height: 548px;
+    }
+    .inside{
+        display: block;
+    }
+    .inside-1{
+        position: relative;
+        top: -155px;
+    }
+    .imgage-sec{
+        display: none;
+    }
+    .parag h1{
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .para-about p{
+        font-size: 15px;
+        line-height: 22.5px;
+        text-align: center;
+    }
+
+    .media-heapnoesection-2{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 /* .bt1{
     display: inline-flex;
@@ -257,7 +414,7 @@
 
 }
 .section-3{
-    padding: 76px 358px 51px;
+    padding: 76px 188px 51px;
 }
 .headphone-main{
     width: 100%;
@@ -277,10 +434,19 @@
     justify-content: center;
     align-items: center;  
 }
+.hed-phones1{
+    width: 350px;
+    height: 438px;
+}
+.hed-phones1 img{
+    width: 100%;
+    height: 100%;
+}
+
 .btn-headphone{
     display: inline-flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     cursor: pointer;
     border-radius: 64px;
     background: linear-gradient(90deg, #4A4745 0%, #151414);
@@ -293,12 +459,36 @@
     font-weight: 500;
     line-height: 24px;
     position: relative;
-    left: 65px;
+    /* left: 65px; */
 }
 #blur-button{
     filter: blur(2px);
 }
-
+/* media -2 */
+@media (max-width:376px){
+    .secondsection{
+        width: 100%;
+    }
+    .section-3{
+        width: 100%;
+        padding: 0px;
+        overflow: hidden;
+    }
+    .hed-phones1{
+        width: 220px;
+        height:297px;
+    }
+    .headphone-main h2{
+        font-size: 20px;
+        line-height: 30px;
+        width: 245px;
+        height: 30px;
+    }
+    #blur-button{
+        display: none;
+    }
+    
+}
 /* Fourth section */
 
 .fourthsection{
@@ -387,6 +577,88 @@
     justify-content: center;
     display:flex;
 }
+.hidden-tooth{
+    display: none;
+}
+.hidden-tooth1{
+    display: none;
+}
+.hidden-tooth-1{
+    display: none;       
+}
+@media (max-width:376px){
+    .balckhedaphone{
+        width: 280px;
+        height: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .balckhedaphone img{
+        width: 80%;
+    }
+    .black-headphone h2{
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .feature-1{
+        width: 194px;
+        height: 24px;
+        right: 80px;
+        top: 117px;
+    }
+    .balck-btn{
+        width: 76px;
+        height: 25px;
+        font-size: 10px;
+        line-height: 7px;
+    }
+    .feature-2{
+        width: 144px;
+        height: 22px;
+        left: 155px;
+        top: 34px;
+    }
+    #tooth2{
+        display: none;
+    }
+    .hidden-tooth{
+        display: block;
+        position: relative;
+        top: 13px;
+        left: 32px;
+    }
+    #balck-btn12{
+        width: 100%;
+        position: relative;
+        right: 112px;
+        top: 1px;
+    }
+    .feature-3{
+        width: 194px;
+        height: 29px;
+        right: 90px;
+        top: 201px;
+    }
+    .hidden-tooth1{
+        display: block;
+    }
+    #balck-btn3{
+        left: 129px;
+    }
+    .feature-4{
+        width: 130px;
+        height: 24px;
+        left: 146px;
+        top: 138px;
+        right: 37px;
+    }
+    #tooth22{
+        display: none;
+    }
+
+}
 /* Fifth Section */
 .fifthsection{
     width: 100%;
@@ -394,40 +666,73 @@
     background-color: rgba(11, 10, 9, 1);
 }
 .fifth{
-    max-width:921px;
-    display: inline;
-    
+    width: 100%;
 }
 .sociamedia-cond{
     width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 83px;
+    gap: 110px; */
+}
+.social{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 83px;
     gap: 110px;
 }
+.social2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 83px;
+    gap: 110px;
+}
+/* media section 5 */
+@media (max-width:376px){
+    .sociamedia-cond{
+        padding: 0;
+        gap: 0;
+        flex-direction: column;
+    }
+    #on1{
+        display: flex;
+        flex-direction: row;
+    }
+    .social{
+        display: block;
+        padding: 0%;
+        gap: 0;
+        position: relative;
 
-
-
+    }
+    .social2{
+        flex-direction: column;
+        padding: 0%;
+        gap: 0;
+    }
+}
 /* Footer */
 .footerlast{
     width: 100%;
     height: 443px;
     background-color: rgba(11, 10, 9, 1);
     text-align: center;
-
 }
 .footer-head{
     width: 100%;
-    height: 331px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .footer-container{
     display: flex;
     flex-direction: row;
     gap: 67px;
+    padding: 116px;
+    justify-content: center;
+    align-items: baseline;
 }
 a{
     text-decoration: none;
@@ -449,12 +754,12 @@ a{
     flex-direction: column;
 }
 .email-cond{
-    max-width: 360px;
+    width: 360px;
     height: 128px;
     
 }
 .email-cond1{
-    width: 360px;
+    width: 100%;
     display: flex;
 }
 .email-cond1 input{
@@ -530,5 +835,53 @@ a{
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    color: ;
+    color: rgba(157, 152, 149, 1);
+}
+.media-jblfoot{
+    display: none;
+}
+
+@media (max-width:376px){
+    .footerlast{
+        width: 100%;
+        height: 443px;
+        background-color: rgba(11, 10, 9, 1);
+        text-align: center;
+    }
+    .footer-head{
+        width: 100%;
+        text-align: left;
+    }
+    .media-jblfoot{
+        display: block;
+        color: aqua;
+    }
+    .footer-container{
+        display: grid;
+        gap: 0;
+        overflow: hidden;
+        padding: 30px;
+    }
+    .products-cond{
+        position: relative;
+        top: 41px;
+        text-align: left;
+        left: 17px;
+    }
+    .sapport-cond{
+        position: relative;
+        top: -113px;
+        text-align: center;
+        left: 59px;
+    }
+    .email-cond{
+        width: 320px;
+    }
+    .icons-cond{
+        padding: 0%;
+        width: 0;
+    }
+    p{
+        overflow: hidden;
+    }
 }

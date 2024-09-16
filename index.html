@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assigment-4</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
 </head>
 
 <body>
@@ -61,12 +60,41 @@
                 </section>
                 <!-- nav-mediaquerry -->
                 <section class="Jbl-cond" >
-                    <section class="navsmall-cond">
+                    <div class="navsmall-cond">
                                 <nav class="navcond-media">
                                     <h1>JBL</h1>
-                                    <i class="fa-solid fa-bars"></i>
+                                    <button class="fa-solid"><img src="./images/menu2.png" alt="menu"></button>
                                 </nav>
-                    </section>
+                    </div>
+                    <div class="headphone-jblcond">
+                        <div class="jblcondiner">
+                            <div class="jbl-headcond">
+                                <div class="jbl-senta">
+                                    <div class="jbl-j">
+                                        <h1 class="j">J</h1>
+                                    </div>
+                                    <div class="jbl-b">
+                                        <h1 class="b">B</h1>
+                                    </div>
+                                    <div class="jbl-l">
+                                        <h1 class="l">L</h1>
+                                    </div>
+                                </div>
+                                <div class="jbl-hedphonecond">
+                                    <img src="./images/medi-jblheadphone.png" alt="" class="headphone-jblimg">
+                                </div>
+                                <div class="price-button">
+                                    <img src="./images/media-toothpick.png" alt="">
+                                    <button class="price-btn">$150</button>
+                                </div>
+                            </div>
+                            <button class="media-btn">Know More
+                                <img src="./images/buttioninside icon.png" alt="buttonicon">
+                            </button>
+                            <button class="balck-btnjbl">Buy Now <img src="./images/playbutton.png"
+                                alt="playbutton"></button>
+                        </div> 
+                    </div>
                 </section>
                 <section class="second">
                     <!-- Second section -->
@@ -87,6 +115,9 @@
                                             <img src="./images/buttioninside icon.png" alt="buttonicon">
                                         </button>
                                     </div>
+                                    <div class="media-heapnoesection-2">
+                                        <img src="./images/media-head2section.png" alt="headphone">
+                                    </div>
                                 </div>
                                 <div class="imgage-sec">
                                     <div class="imgelogo">
@@ -95,9 +126,6 @@
                                 </div>
                             </div>
                         </div>
-                        <section class="media-second">
-
-                        </section>
                     </section>
                 </section>
 
@@ -108,7 +136,7 @@
                         <div class="headphone-main">
                             <h2>CHOOSE YOUR FAVORITE</h2>
                             <div class="headphone">
-                                <div class="headphone">
+                                <div class="headphone-1">
                                     <div class="hed-phones1">
                                         <img src="./images/headphone1.png" alt="headphone1">
                                         <button id="blur-button" class="btn-headphone">Teal Model</button>
@@ -137,22 +165,23 @@
                             <h2>MODEL SPECIFICATIONS</h2>
                             <div class="headphone-image">
                                 <div class="balckhedaphone">
-                                    <img src="./images/balckheadphone.png" alt="Headphoness">
+                                    <img src="./images/balckheadphone.png" alt="Headphoness" id="blackhead">
                                 </div>
                                 <div class="feature-1">
+
                                     <button class="balck-btn">Best Comfort</button>
-                                    <img class="tooth" src="./images/Tooltip-1left.png" alt="toothpic">
+                                    <img class="tooth" id="tooth1" src="./images/Tooltip-1left.png" alt="toothpic">
                                 </div>
                                 <div class="feature-2">
-                                    <img class="tooth" src="./images/Tooltip-2right.png" alt="toothpic">
-                                    <button class="balck-btn">Easy Adjustment</button>
+                                    <img class="tooth" id="tooth2" src="./images/Tooltip-2right.png" alt="toothpic"><img class="hidden-tooth" src="./images/Tooltip-3left.png" alt="">
+                                    <button class="balck-btn" id="balck-btn12">Easy Adjustment</button>
                                 </div>
                                 <div class="feature-3">
-                                    <button class="balck-btn">Fast Charge</button>
-                                    <img class="tooth" src="./images/Tooltip-3left.png" alt="toothpic">
+                                    <button class="balck-btn" id="balck-btn3">Fast Charge</button>
+                                    <img class="tooth"  id="tooth2" src="./images/Tooltip-3left.png" alt="toothpic"><img class="hidden-tooth1" src="./images/Tooltip-2right.png" alt="">
                                 </div>
                                 <div class="feature-4">
-                                    <img class="tooth" src="./images/Tooltip-4 large.png" alt="toothpic">
+                                    <img class="tooth" id="tooth22" src="./images/Tooltip-4 large.png" alt="toothpic"><img class="hidden-tooth1" src="./images/Tooltip-2right.png" alt="">
                                     <button class="balck-btn">Custom Audio</button>
                                 </div>
                                 <div class="feature-5">
@@ -168,17 +197,21 @@
                 <section class="fifthsection">
                     <section class="fifth">
                         <div class="sociamedia-cond">
-                            <div class="social-1">
-                                <a href=""><img src="./images/apple-left0.png" alt=""></a>
-                            </div>
-                            <div class="social-1">
-                                <a href=""><img src="./images/amzone-left2.png" alt=""></a>
-                            </div>
-                            <div class="social-1">
-                                <a href=""><img src="./images/spotify-left2.png" alt=""></a>
-                            </div>
-                            <div class="social-1">
+                            <div class="social">
+                                <div class="social-1">
+                                    <a href=""><img src="./images/apple-left0.png" alt=""></a>
+                                </div>
+                                <div class="social-1">
+                                    <a href=""><img src="./images/amzone-left2.png" alt=""></a>
+                                </div>
+                            <div class="social2">
+                                <div class="social-1">
+                                    <a href=""><img src="./images/spotify-left2.png" alt=""></a>
+                                </div>
+                           
+                                <div class="social-1">
                                 <a href=""><img src="./images/youfooterabove-left1.png" alt=""></a>
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -187,6 +220,7 @@
                 <section class="footerlast">
                     <section class="footer-head">
                         <div class="foot-cond2">
+                            <h1 class="media-jblfoot">JBL</h1>
                             <div class="footer-container">
                                 <div class="products-cond">
                                     <h3><a href="#">Products</a></h3>
@@ -217,7 +251,7 @@
                         </div>
                     </section>
                     <div class="footer-lowerhead">
-                        <h1><img src="./images/@symbol.png" alt="@symbol">Developed by <a href="#">Butterfly Agency</a>| Kurdistan</h1>
+                        <h1><img src="./images/@symbol.png" alt="@symbol"> Developed by  <a href="#">  Butterfly Agency</a>  | Kurdistan</h1>
                     </div>
                 </section>
             </section>
