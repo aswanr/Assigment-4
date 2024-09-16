@@ -15,7 +15,7 @@
     height: 100vh;
     background-size: cover;
     justify-content: center;
-    background-image: url('/images/indexpage.jpg');
+    background-image: url('../images/Home-index.png');
     background-repeat: no-repeat; 
 }
 .nav-section{
@@ -61,11 +61,17 @@
     font-size: 10px;
     font-weight: 400;
 }
-.nav-links h2{
+#nav-p{
     color: aliceblue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 #nav-h2{
     color: rgba(89, 0, 120, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 .follow-icons{
     width: 0%;
@@ -433,7 +439,6 @@
     font-family: "poppins";
     color: rgba(255, 255, 255, 1);
     position: relative;
-    left: 65px;
 }
 .headphone{
     display: flex;
@@ -494,6 +499,9 @@
     #blur-button{
         display: none;
     }
+    .headphone-main h2{
+        left: 60px;
+    }
     
 }
 /* Fourth section */
@@ -536,6 +544,7 @@
     box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.25);
     position:relative;
     top: -15px;
+    border: 0;
 }
 .balck-btn1{
     min-width:  146px;
@@ -674,21 +683,18 @@
 }
 .fifth{
     width: 100%;
+    height: 211px;
 }
 .sociamedia-cond{
     width: 100%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 83px;
-    gap: 110px; */
 }
 .social{
-    display: flex;
+    display: none;
+    filter: blur(100%);
+    width: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 83px;
     gap: 110px;
 }
 .social2{
@@ -729,6 +735,13 @@
         justify-content: space-around;
         padding: 39px 0px 0px 0px;
     }
+    .socia-medihideen{
+        width: 100px;
+        height: 35px;
+    }
+    .socia-medihideen img{
+        width: 100%;
+    }
 }
 /* Footer */
 .footerlast{
@@ -755,6 +768,7 @@ a{
     position: relative;
     gap: 7px;
     display: grid;
+    text-align: left;
 }
 .products-cond a{
     color: #fff;
@@ -766,6 +780,7 @@ a{
     gap: 7px;
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 .email-cond{
     width: 360px;
@@ -774,39 +789,33 @@ a{
 }
 .email-cond1{
     width: 100%;
-    position: relative;
-    top: -74px;
+    display: flex;
 }
 .email-cond1 input{
-    width: 280px;
-    height: 45px;
+    width: 360px;
+    height: 72px;
     border-radius: 64px;
     background-color: rgba(27, 25, 24, 1);
     border: 0;
-    font-size:16px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    font-family: "poppins";
-
+    font-family: "poppins";
 }
 .email-cond1 button{
     display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     cursor: pointer;
     border-radius: 64px;
-    width: 280px;
-    height: 45px;
+    width: 139px;
+    height: 50px;
     position: relative;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 22.5px;
-    font-family: "poppins";
-    top: 10px;
+    left: 73px;
+    top: -59px;
     background: linear-gradient(90deg, #4A4745 0%, #151414);
     border: 0;
-    color: rgba(255, 255, 255, 1);
-    gap: 17px;
+    color: #fff;
 }
 .sub-p{
     width: 84px;
@@ -820,6 +829,8 @@ a{
     padding: 19px;
     display: flex;
     gap: 24px;
+    position: relative;
+    top: -46px;
 }
 .products-cond h3{
     font-family: "poppins";
@@ -860,8 +871,43 @@ a{
 .media-jblfoot{
     display: none;
 }
-
 @media (max-width:376px){
+    .email-cond1 button{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border-radius: 64px;
+        width: 280px;
+        height: 45px;
+        position: relative;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22.5px;
+        font-family: "poppins";
+        top: 10px;
+        background: linear-gradient(90deg, #4A4745 0%, #151414);
+        border: 0;
+        color: rgba(255, 255, 255, 1);
+        gap: 17px;
+        left: 0;
+    }
+    .email-cond1{
+        width: 100%;
+        position: relative;
+        top: -74px;
+    }
+    .email-cond1 input{
+        width: 280px;
+        height: 45px;
+        border-radius: 64px;
+        background-color: rgba(27, 25, 24, 1);
+        border: 0;
+        font-size:16px;
+        font-weight: 400;
+        line-height: 24px;
+        font-family: "poppins";
+    }
     .footerlast{
         width: 100%;
         height: 478px;
@@ -874,7 +920,7 @@ a{
     }
     .media-jblfoot{
         display: block;
-        color: aqua;
+        color: rgba(89, 0, 120, 1);
         font-weight: 600;
         font-size: 20px;
         font-family: "poppins";
