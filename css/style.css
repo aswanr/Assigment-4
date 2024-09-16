@@ -778,8 +778,8 @@ a{
     top: -74px;
 }
 .email-cond1 input{
-    width: 320px;
-    height: 51px;
+    width: 280px;
+    height: 45px;
     border-radius: 64px;
     background-color: rgba(27, 25, 24, 1);
     border: 0;
@@ -795,8 +795,8 @@ a{
     justify-content: center;
     cursor: pointer;
     border-radius: 64px;
-    width: 320px;
-    height: 50px;
+    width: 280px;
+    height: 45px;
     position: relative;
     font-size: 15px;
     font-weight: 500;
@@ -864,7 +864,7 @@ a{
 @media (max-width:376px){
     .footerlast{
         width: 100%;
-        height: 443px;
+        height: 478px;
         background-color: rgba(11, 10, 9, 1);
         text-align: center;
     }
@@ -875,6 +875,10 @@ a{
     .media-jblfoot{
         display: block;
         color: aqua;
+        font-weight: 600;
+        font-size: 20px;
+        font-family: "poppins";
+        padding: 0px 13px;
     }
     .footer-container{
         display: grid;
@@ -900,8 +904,12 @@ a{
     .icons-cond{
         padding: 0%;
         width: 0;
+        position: relative;
+        left: 100px;
+        top: -40px;
     }
-    p{
-        overflow: hidden;
+    .email-cond1{
+        left: 18px;
     }
+
 }
