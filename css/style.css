@@ -238,7 +238,12 @@
         text-align: left;
     }
     .fa-solid {
-        align-items: end;
+        width: 18px;
+        display: contents;
+        height: 16px;
+    }
+    .fa-solid img{
+        width:18px;
     }
     .media-followline{
         display: block;
@@ -427,6 +432,8 @@
     line-height: 54px;
     font-family: "poppins";
     color: rgba(255, 255, 255, 1);
+    position: relative;
+    left: 65px;
 }
 .headphone{
     display: flex;
@@ -692,28 +699,35 @@
     padding: 83px;
     gap: 110px;
 }
+.socialcond-media{
+    display: none;
+}
 /* media section 5 */
 @media (max-width:376px){
-    .sociamedia-cond{
-        padding: 0;
-        gap: 0;
-        flex-direction: column;
+    .social{        
+        display:none ;
     }
-    #on1{
-        display: flex;
-        flex-direction: row;
-    }
-    .social{
+    .socialcond-media{
         display: block;
-        padding: 0%;
-        gap: 0;
-        position: relative;
-
     }
-    .social2{
-        flex-direction: column;
-        padding: 0%;
-        gap: 0;
+    .socialcond-media{
+        width: 100%;
+        height: 100%;
+    }
+    .socialmedia-firstcol{
+        width: 100%;
+    }
+    .colm-1-media{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 36px 0px 5px 0px;
+    }
+    .colm-2-media{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 39px 0px 0px 0px;
     }
 }
 /* Footer */
@@ -760,11 +774,12 @@ a{
 }
 .email-cond1{
     width: 100%;
-    display: flex;
+    position: relative;
+    top: -74px;
 }
 .email-cond1 input{
-    width: 360px;
-    height: 72px;
+    width: 320px;
+    height: 51px;
     border-radius: 64px;
     background-color: rgba(27, 25, 24, 1);
     border: 0;
@@ -772,21 +787,26 @@ a{
     font-weight: 400;
     line-height: 24px;
     font-family: "poppins";
+
 }
 .email-cond1 button{
     display: inline-flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     cursor: pointer;
     border-radius: 64px;
-    width: 170px;
+    width: 320px;
     height: 50px;
     position: relative;
-    right: 117px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    font-family: "poppins";
     top: 10px;
     background: linear-gradient(90deg, #4A4745 0%, #151414);
     border: 0;
     color: rgba(255, 255, 255, 1);
+    gap: 17px;
 }
 .sub-p{
     width: 84px;
@@ -860,7 +880,7 @@ a{
         display: grid;
         gap: 0;
         overflow: hidden;
-        padding: 30px;
+        padding: 0;
     }
     .products-cond{
         position: relative;
