@@ -11,54 +11,52 @@
 }
 .firstone{
     width: 100%;
+    height: 100vh; 
+}
+.nav-pro{
+    width: 100%;
     height: 100vh;
     background-size: cover;
     justify-content: center;
     background-image: url('../images/Home-index.png');
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav-pro img{
+    object-fit: contain;
 }
 .nav-section{
     height: 88px;
     width: 100%;
 }
-
 .full-nav{
     position: absolute;
     width: 100%;
 }
 .nav-1{
     display: inline-flex;
-    margin-left: 95px;
 }
-.ion img{       /* Image sizeinggggg */
+.icon img{     
     display: block;
-    margin: 0 auto;
-    width: 100%;
+    margin: 10px 77px 0px;
+    width: 60%;
     height: auto;
 }
-.ion{
+.icon{
     width: 160px;
     height: 77.45px;
 }
 .nav-links{
     position: relative;
-    left: 450px;
+    left: 400px;
 }
 .nav-links ul{
-    display: flex;
-    justify-content: space-between; /* Center items horizontally */
-    align-items: center;
-    color: aliceblue;
-    gap: 30px;
-    list-style: none;
+    display: inline-flex;
+    gap: 58px;
     width: 48px;
-    height: 24px;
-    margin: 5px;
-    padding: 32px;
+    height: 25px;
+    margin: 20px;
     font-family: "poppins";
-    line-height: 24px;
-    font-size: 10px;
-    font-weight: 400;
 }
 #nav-p{
     color: aliceblue;
@@ -78,17 +76,17 @@
 .social-ions{
     width: 100%;
     position: relative;
-    left: 160px;
+    left: 100px;
 }
 .img-soicon{
-    width: 24px; 
-    height: 24px; 
+    width: 19px;
+    height: 24px;
     display: flex;
     flex-direction: column;
-    align-items: center;    
-    justify-content: center; 
+    align-items: center;
+    justify-content: center;
     position: relative;
-    top: 500px;
+    top: 431px;
 }
 .img-soicon img{
     margin: 10px 0;
@@ -100,8 +98,8 @@
     width: 75px;
     height: 24px;
     position: relative;
-    top: 365px;
-    left: 127px;
+    top: 304px;
+    left: 73px;
 }
 .follow h3{
     font-size: 16px;
@@ -110,39 +108,34 @@
     font-family: "poppins";
 }
 .emp-99che{
-    width: 554px;
+    width: 485px;
     height: 114px;
     position: relative;
-    top: 471px;
-    left: 320px;
+    top: 431px;
+    left: 255px;
 }
 #cheat{
-    font-size:115px ;
-    font-weight: 400;
-    line-height: 113.96px;
-    font-family: 'LozangeNoCommercial';
-    color: rgba(58, 33, 82, 1);
+    width: 540px;
 }
 .emplom{
     width: 554px;
     height: 114px;
 }
 .emplom img{
-    width: 100%;
+    width: 70%;
 }
 
 /* Second section */
 .second{
     width: 100%;
     height: 478px;
-    background-color: rgba(11, 10, 9, 1);
-    
+    background-color: rgba(11, 10, 9, 1);  
 }
 .section-2{
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 556px;
+    margin-top: 550px;
 }
 .inside{
     width: 100%;
@@ -171,6 +164,8 @@
 .inside-1{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .paraghead{
     width: 401.5px;
@@ -181,7 +176,6 @@
 .imgelogo{
     width: 100%;  
     position: relative;
-    top: 41px;
 }
 .imgelogo img{
     width:100%;
@@ -200,8 +194,8 @@
     display: block;
     rotate: 90deg;
     position: relative;
-    left: 63px;
-    top: -100px;
+    left: 58px;
+    top: -68px;
 }
 .media-heapnoesection-2{
     display: none;
@@ -214,6 +208,13 @@
 }
 /* Firstmedia */
 @media (max-width:376px){
+    .firstone{
+        background-color: #151414;
+        background-image: none;
+    }
+    .nav-pro{
+        background-image: none;
+    }
     .full-nav{
         display: none;
     }
@@ -270,7 +271,6 @@
         position: relative;
         left: 71px;
         top: 0px;
-
     }
     .follow {
         position: relative;
@@ -347,7 +347,7 @@
         cursor: pointer;
         border-radius: 64px;
         background: linear-gradient(90deg, #4A4745 0%, #151414);
-        width: 44px;
+        width: 65px;
         height: 27px;
         font-size: 13px;
         line-height: 19.5px;
@@ -357,6 +357,7 @@
         top: -13px;
         right: 3px;
         border: 0;
+        font-family: "poppins";
     }
     .balck-btnjbl{
         min-width: 130px;
@@ -413,16 +414,21 @@
         line-height: 22.5px;
         text-align: center;
     }
-
     .media-heapnoesection-2{
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 40px 0px;
     }
-
 }
-@media (min-width: 628px) and (max-width:1053px){
+@media (min-width: 628px) and (max-width:1184px){
+    .firstone{
+        object-fit: fill;
+    }
+    .firstone{
+        background-color: #151414;
+        background-image: none;
+    }
     .nav-section{
         width: 100%;
     }
@@ -477,12 +483,227 @@
         width: 90%;
     }
 }
-@media (min-width: 628px) and (max-width:1053px){
-    
+@media (min-width: 378px) and (max-width:629px){
+    .firstone img{
+        object-fit: none;
+    }
+    .full-nav{
+        display: none;
+    }
+    .Jbl-cond{
+        background-color: #151414;
+        background-image: none;
+    }
+    .nav-section{
+        width: 0;
+        height: 0;
+    }
+    .full-nav{
+        display: none;
+    }
+    .emp-99che{
+        display: none;
+        width: 0;
+        height: 0;
+    }
+    .follow-icons{
+        display: block;
+    }
+    .Jbl-cond{
+        display: block;
+        width: 100%;
+        height: 100vh;
+    }
+    .inside{
+        display: none;
+    }
+    .navcond-media{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 75%;
+    }
+    .navcond-media h1{
+        text-align: left;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        font-family: "poppins";
+        color:  rgba(89, 0, 120, 1);
+        text-align: left;
+    }
+    .fa-solid {
+        width: 18px;
+        display: contents;
+        height: 16px;
+    }
+    .fa-solid img{
+        width:18px;
+    }
+    .media-followline{
+        display: block;
+        rotate: 90deg;
+        position: relative;
+        left: 71px;
+        top: 0px;
+    }
+    .follow {
+        position: relative;
+        top: 345px;
+        left: 134px;    
+    }
+    .follow-icons{
+        position: relative;
+        right: 137px;
+        top: -118px;
+    }
+    .headphone-jblcond{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+        top: 172px;
+    }
+    .jbl-headcond{
+        display: inline-flex;
+    }
+    .jbl-hedphonecond{
+        width: 220px;
+        height: auto;
+        padding: 10px;
+        position: absolute;
+    }
+    .jbl-senta{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        position: relative;
+        top: -21px;
+    }
+    .jbl-j{
+        position: relative;
+        color: rgba(89, 0, 120, 1);
+        font-family: "poppins";
+        font-size: 160px;
+        line-height: 240px;
+        font-weight: 600;
+        z-index: 1;
+    }
+    .jbl-b{
+        position: relative;
+        color: rgba(89, 0, 120, 1);
+        font-family: "poppins";
+        font-size: 160px;
+        line-height: 240px;
+        font-weight: 600;
+    }
+    .jbl-l{
+        position: relative;
+        color: rgba(89, 0, 120, 1);
+        font-family: "poppins";
+        font-size: 160px;
+        line-height: 240px;
+        font-weight: 600;
+        z-index: 1;
+    }
+    .price-button{
+        position: absolute;
+        left: 342px;
+        display: inline-flex;
+    }
+    .media-btn{ 
+        display: none;
+    }
+    .price-btn{
+        cursor: pointer;
+        border-radius: 64px;
+        background: linear-gradient(90deg, #4A4745 0%, #151414);
+        width: 44px;
+        height: 27px;
+        font-size: 13px;
+        line-height: 19.5px;
+        font-weight: 500;
+        color: #fff;
+        position: relative;
+        top: -13px;
+        right: 3px;
+        border: 0;
+        font-family: "poppins";
+    }
+    .balck-btnjbl{
+        min-width: 130px;
+        height: 40px;
+        border: none;
+        border-radius: 64px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: pointer;
+        background: linear-gradient(90deg, #4A4745 0%, #151414);
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 22.5px;
+        font-family: "poppins";
+        color: rgba(255, 255, 255, 1);
+        box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.25);
+        position: relative;
+        top: 87px;
+    }
+    .jblcondiner{
+        width: 85%;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    /* section2 */
+    .section-2{
+        margin-top: 0px;
+        width: 100%;
+        height: 644px;
+    }
+    .second{
+        height: 548px;
+    }
+    .inside{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .inside-1{
+        position: relative;
+        top: -155px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .imgage-sec{
+        display: none;
+    }
+    .parag h1{
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .para-about p{
+        font-size: 15px;
+        line-height: 22.5px;
+        text-align: center;
+    }
+    .media-heapnoesection-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 0px;
+    }
 }
 /* Third */
 .secondsection{
-
     justify-content: center;
     width: 100%;
     background-color: rgba(11, 10, 9, 1);
@@ -508,6 +729,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;  
+    gap: 72px;
+    padding: 28px 0px 0px 0px;
 }
 .hed-phones1 {
     width: 280px;
@@ -541,8 +764,27 @@
     line-height: 24px;
     position: relative;
 }
+.btn-headphone2{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    border-radius: 64px;
+    background: linear-gradient(90deg, #4A4745 0%, #151414);
+    border: 0;
+    color: rgba(255, 255, 255, 1);
+    width: 145px;
+    height: 40px;
+    font-family: "poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    position: relative;
+}
 #blur-button{
     filter: blur(2px);
+    width: 136px;
+    height: 40px;
 }
 /* media -2 */
 @media (max-width:376px){
@@ -594,10 +836,56 @@
         height: 38px;
     }   
 }
-@media (min-width: 628px) and (max-width:1053px){
+@media (min-width: 628px) and (max-width:1184px){
     .section-3{
         overflow: hidden;
     }
+}
+@media (min-width: 378px) and (max-width:628px){
+    .secondsection{
+        width: 100%;
+    }
+    .section-3{
+        width: 100%;
+        padding: 0px;
+        overflow: hidden;
+    }
+    .hed-phones1{
+        width: 220px;
+        height:297px;
+    }
+    .headphone-main h2{
+        font-size: 20px;
+        line-height: 30px;
+        width: 245px;
+        height: 30px;
+    }
+    .section-bt1{
+        justify-content: center;
+    }
+    .hed-phones2{
+        width: 220px;
+        height: 234px;
+    }
+    .hed-phones1{
+        width: 180px;
+        height: 191px;
+    }
+    .headphone-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 56px;
+    }
+    .btn-headphone{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22.5px;
+        padding: 2px;
+        width: 138px;
+        height: 38px;
+    }  
 }
 /* Fourth section */
 
@@ -611,6 +899,10 @@
 }
 .headphone-image{
     width: 100%;
+    position: relative;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
 }
 .fouth-head{
     max-width: 100%;
@@ -621,10 +913,7 @@
     line-height: 54px;
     font-weight: 600;
     color: rgba(255, 255, 255, 1);
-    text-align: end;
-}
-.headphone-image{
-    position: relative;
+    text-align: center;
 }
 .balck-btn{
     width: 176px;
@@ -643,8 +932,8 @@
     border: 0;
 }
 .balck-btn1{
-    min-width:  146px;
-    height: 40px;
+    width:  158px;
+    height: 56px;
     border: none;
     border-radius: 64px;
     padding: 8px, 20px, 8px, 20px;
@@ -697,6 +986,11 @@
 }
 .hidden-tooth-1{
     display: none;       
+}
+.black-headphone{
+    display: flex;
+    flex-direction: column;
+    gap:80px;
 }
 /* media-4 */
 @media (max-width:376px){
@@ -771,7 +1065,7 @@
         display: none;
     }
 }
-@media (min-width: 628px) and (max-width:1053px){
+@media (min-width: 628px) and (max-width:1184px){
     .balckhedaphone{
         width: 400px;
     }
@@ -806,8 +1100,80 @@
         width: 212px;
         top: 232px;
         left: 251px;
+    } 
+}
+@media (min-width: 378px) and (max-width:629px){
+    .balckhedaphone{
+        width: 290px;
+        height: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    
+    .balckhedaphone img{
+        width: 100%;
+    }
+    .black-headphone h2{
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .feature-1{
+        width: 194px;
+        height: 24px;
+        right: 115px;
+        top: 127px;
+    }
+    .balck-btn{
+        width: 100px;
+        height: 25px;
+        font-size: 10px;
+        line-height: 7px;
+    }
+    .feature-2{
+        width: 157px;
+        height: 22px;
+        left: 162px;
+        top: 18px;
+    }
+    #tooth2{
+        display: none;
+    }
+    .hidden-tooth{
+        display: block;
+        position: relative;
+        top: 14px;
+        left: 45px;
+    }
+    #balck-btn12{
+        width: 100%;
+        position: relative;
+        right: 112px;
+        top: 1px;
+    }
+    .feature-3{
+        width: 194px;
+        height: 29px;
+        right: 138px;
+        top: 227px;
+    }
+    .hidden-tooth1{
+        display: block;
+    }
+    #balck-btn3{
+        left: 165px;
+        top: -11px;
+    }
+    .feature-4{
+        width: 178px;
+        height: 24px;
+        left: 154px;
+        top: 138px;
+        right: 37px;
+    }
+    #tooth22{
+        display: none;
+    }
 }
 /* Fifth Section */
 .fifthsection{
@@ -831,7 +1197,7 @@ width: 100%;
     align-items: center;
     justify-content: center;
     padding: 82px;
-    gap: 206px;
+    gap: 124px;
 }
 .social2{
     display: flex;
@@ -884,6 +1250,40 @@ width: 100%;
         gap: 40px;
     }
 }
+@media (min-width: 378px) and (max-width:628px){
+    .social{        
+        display:none ;
+    }
+    .socialcond-media{
+        display: block;
+    }
+    .socialcond-media{
+        width: 100%;
+        height: 100%;
+    }
+    .socialmedia-firstcol{
+        width: 100%;
+    }
+    .colm-1-media{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 36px 0px 5px 0px;
+    }
+    .colm-2-media{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 39px 0px 0px 0px;
+    }
+    .socia-medihideen{
+        width: 100px;
+        height: 35px;
+    }
+    .socia-medihideen img{
+        width: 100%;
+    }
+}
 /* Footer */
 .footerlast{
     width: 100%;
@@ -897,16 +1297,16 @@ width: 100%;
 .footer-container{
     display: flex;
     flex-direction: row;
-    gap: 67px;
+    gap: 96px;
     padding: 116px;
     justify-content: center;
-    align-items: baseline;
 }
 a{
     text-decoration: none;
 }
 #butterfy{
     text-decoration: underline;
+    color: rgba(89, 0, 120, 1);
 }
 .products-cond{
     position: relative;
@@ -928,8 +1328,7 @@ a{
 }
 .email-cond{
     width: 360px;
-    height: 128px;
-    
+    height: 128px; 
 }
 .email-cond1{
     width: 100%;
@@ -959,7 +1358,6 @@ a{
     top: -61px;
     background: linear-gradient(90deg, #4A4745 0%, #151414);
     border: 0;
-    color: #fff;
 }
 .sub-p{
     width: 84px;
@@ -1014,6 +1412,13 @@ a{
 }
 #col-hedfooter{
     color:rgba(255, 255, 255, 1);
+}
+#sub-p{
+    color:rgba(255, 255, 255, 1);
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 }
 @media (max-width:376px){
     .email-cond1 button{
@@ -1102,8 +1507,95 @@ a{
         left: 18px;
     }
 }
-@media (min-width: 628px) and (max-width:1053px){
+@media (min-width: 628px) and (max-width:1184px){
     .footer-container{
         gap: 29px;
+    }
+}
+@media (min-width: 378px) and (max-width:628px){
+    .email-cond1 button{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border-radius: 64px;
+        width: 280px;
+        height: 45px;
+        position: relative;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22.5px;
+        font-family: "poppins";
+        top: 10px;
+        background: linear-gradient(90deg, #4A4745 0%, #151414);
+        border: 0;
+        color: rgba(255, 255, 255, 1);
+        gap: 17px;
+        left: 0;
+    }
+    .email-cond1{
+        width: 100%;
+        position: relative;
+        top: -74px;
+    }
+    .email-cond1 input{
+        width: 280px;
+        height: 45px;
+        border-radius: 64px;
+        background-color: rgba(27, 25, 24, 1);
+        border: 0;
+        font-size:16px;
+        font-weight: 400;
+        line-height: 24px;
+        font-family: "poppins";
+    }
+    .footerlast{
+        width: 100%;
+        height: 478px;
+        background-color: rgba(11, 10, 9, 1);
+        text-align: center;
+    }
+    .footer-head{
+        width: 100%;
+        text-align: left;
+    }
+    .media-jblfoot{
+        display: block;
+        color: rgba(89, 0, 120, 1);
+        font-weight: 600;
+        font-size: 20px;
+        font-family: "poppins";
+        padding: 0px 13px;
+    }
+    .footer-container{
+        display: grid;
+        gap: 0;
+        overflow: hidden;
+        padding: 0;
+    }
+    .products-cond{
+        position: relative;
+        top: 41px;
+        text-align: left;
+        left: 17px;
+    }
+    .sapport-cond{
+        position: relative;
+        top: -113px;
+        text-align: center;
+        left: 59px;
+    }
+    .email-cond{
+        width: 320px;
+    }
+    .icons-cond{
+        padding: 0%;
+        width: 0;
+        position: relative;
+        left: 100px;
+        top: -40px;
+    }
+    .email-cond1{
+        left: 18px;
     }
 }
