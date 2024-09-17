@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 .allsections{
     display: flex;
@@ -424,7 +423,62 @@
 
 }
 @media (min-width: 628px) and (max-width:1053px){
-
+    .nav-section{
+        width: 100%;
+    }
+    .nav-1{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .nav-links{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0%;
+    }
+    .nav-links ul{
+        gap: 11px;
+    } 
+    .follow{
+        left: 5px;
+    }
+    .social-ions{
+        left: 30px;
+    }
+    .emp-99che{
+        width: 300px;
+    }
+    .emplom{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .emp-99che{
+        left: 188px;
+    }
+    #cheat{
+        width: 100%;
+    }
+    .imgelogo{
+        width: 300px;
+    }
+    .imgelogo img{
+        width: 100%;
+    }
+    .parag{
+        width: 100%;
+    }
+    .para-about{
+        width: 300px;
+    }
+    .inside-1{
+        width: 90%;
+    }
+}
+@media (min-width: 628px) and (max-width:1053px){
+    
 }
 /* Third */
 .secondsection{
@@ -432,7 +486,6 @@
     justify-content: center;
     width: 100%;
     background-color: rgba(11, 10, 9, 1);
-
 }
 .section-3{
     padding: 76px 188px 51px;
@@ -539,8 +592,12 @@
         padding: 2px;
         width: 138px;
         height: 38px;
+    }   
+}
+@media (min-width: 628px) and (max-width:1053px){
+    .section-3{
+        overflow: hidden;
     }
-    
 }
 /* Fourth section */
 
@@ -641,6 +698,7 @@
 .hidden-tooth-1{
     display: none;       
 }
+/* media-4 */
 @media (max-width:376px){
     .balckhedaphone{
         width: 280px;
@@ -712,8 +770,44 @@
     #tooth22{
         display: none;
     }
-
-
+}
+@media (min-width: 628px) and (max-width:1053px){
+    .balckhedaphone{
+        width: 400px;
+    }
+    .balckhedaphone img{
+        width: 100%;
+    }
+    #tooth2{
+        width: 50px;
+        height: 40px;
+    }
+    .feature-1{
+        width: 200px;
+    }
+    .feature-2{
+        width: 168px;
+        left: 350px;
+        top: 71px;
+    }
+    .balck-btn{
+        font-size: 12px;
+    }
+    #tooth22{
+        width: 118px;
+        height: 47px;
+    }
+    .feature-3{
+        width: 158px;
+        top: 277px;
+        right: 352px;
+    }
+    .feature-4{
+        width: 212px;
+        top: 232px;
+        left: 251px;
+    }
+    
 }
 /* Fifth Section */
 .fifthsection{
@@ -783,6 +877,11 @@ width: 100%;
     }
     .socia-medihideen img{
         width: 100%;
+    }
+}
+@media (min-width: 628px) and (max-width:1053px){
+    .socialmed-1{
+        gap: 40px;
     }
 }
 /* Footer */
@@ -1002,5 +1101,9 @@ a{
     .email-cond1{
         left: 18px;
     }
-
+}
+@media (min-width: 628px) and (max-width:1053px){
+    .footer-container{
+        gap: 29px;
+    }
 }
