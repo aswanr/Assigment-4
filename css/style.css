@@ -1488,6 +1488,11 @@ input::placeholder{
     line-height: 21px;
     color: rgba(157, 152, 149, 1);
 }
+.footer-lowerhead h1 img{
+    position: relative;
+    top:1px;
+    right: 2px;
+}
 .media-jblfoot{
     display: none;
 }
