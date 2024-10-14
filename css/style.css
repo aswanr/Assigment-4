@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 .allsections{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
     background-color: rgba(11, 10, 9, 1); 
 }
 .firstone{
@@ -106,7 +102,7 @@
     top: 448px;
 }
 .img-soicon img{
-    margin: 10px 0;
+    margin: 10px 0px;
     width: 100%;
 }
 .follow{
@@ -168,12 +164,12 @@
     font-size: 16px;
     padding: 30px 0px;   
 }
-.parag h1{
+.parag h2{
     font-family: "poppins";
     font-weight: 600;
     font-size: 36px;
     line-height: 54px;
-    color: rgba(255, 255, 255, 1);;
+    color: rgba(255, 255, 255, 1);
 }
 .inside-1{
     display: flex;
@@ -182,7 +178,7 @@
     align-items: center;
 }
 .paraghead{
-    width: 401.5px;
+    width: 401px;
     height: 286px;
     text-align: left;
     top: 60px;
@@ -278,7 +274,7 @@
         position: relative;
         top: 14px;
     }
-    .navcond-media h1{
+    .navcond-media h2{
         text-align: left;
         font-weight: 600;
         font-size: 20px;
@@ -442,7 +438,7 @@
     .imgage-sec{
         display: none;
     }
-    .parag h1{
+    .parag h2{
         font-size: 20px;
         line-height: 30px;
         text-align: center;
@@ -581,7 +577,7 @@
         justify-content: center;
         gap: 75%;
     }
-    .navcond-media h1{
+    .navcond-media h2{
         text-align: left;
         font-weight: 600;
         font-size: 20px;
@@ -753,7 +749,7 @@
     .imgage-sec{
         display: none;
     }
-    .parag h1{
+    .parag h2{
         font-size: 20px;
         line-height: 30px;
         text-align: center;
@@ -1503,14 +1499,14 @@ input::placeholder{
     line-height: 24px;
 }
 
-.footer-lowerhead h1{
+.footer-lowerhead h2{
     font-family: "poppins";
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
     color: rgba(157, 152, 149, 1);
 }
-.footer-lowerhead h1 img{
+.footer-lowerhead h2 img{
     position: relative;
     top:1px;
     right: 2px;
@@ -1652,7 +1648,7 @@ input::placeholder{
         font-weight:600;
         line-height: 22.5px;
     }
-    .footer-lowerhead h1{
+    .footer-lowerhead h2{
         display: none;
     }
     #hidden-footer{
@@ -1787,7 +1783,7 @@ input::placeholder{
         font-weight:600;
         line-height: 22.5px;
     }
-    .footer-lowerhead h1{
+    .footer-lowerhead h2{
         display: none;
     }
     #hidden-footer{
